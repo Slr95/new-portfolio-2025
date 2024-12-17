@@ -20,6 +20,7 @@ import {
   tesla,
   shopify,
   project1,
+  project2,
   jobit,
   tripguide,
   threejs,
@@ -203,11 +204,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "vite",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwind ",
         color: "pink-text-gradient",
       },
     ],
@@ -215,9 +216,9 @@ const projects = [
     source_code_link: "https://github.com/Slr95/new-portfolio-2025",
   },
   {
-    name: "Job IT",
+    name: "Horoscope landing",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Aplicación web interactiva desarrollada con React para consultar predicciones diarias de los signos del zodiaco. Permite visualizar los horóscopos en formato de lista o cuadrícula, con opciones de filtrado y ordenamiento. La aplicación consume una API externa para obtener las predicciones, cuenta con manejo de errores mediante un ErrorBoundary e incluye pruebas unitarias con React Testing Library utilizando datos mock para simular la respuesta de la API.",
     tags: [
       {
         name: "react",
@@ -232,20 +233,19 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: project2,
+    source_code_link: "https://github.com/Slr95/horoscope-landing/tree/master",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Portfolio anterior",
+    description: "Una versión anterior de mi portfolio web con nextjs",
     tags: [
       {
-        name: "nextjs",
+        name: "javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "next",
         color: "green-text-gradient",
       },
       {
@@ -254,7 +254,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Slr95/Portfolio2",
   },
 ];
 

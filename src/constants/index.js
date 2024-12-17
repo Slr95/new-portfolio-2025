@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  project1,
   jobit,
   tripguide,
   threejs,
@@ -194,9 +194,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portfolio Web",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Este repositorio es mi porfolio personal, construido con React.js, Three.js, React Three Fiber y Tailwind CSS. Utilizo EmailJS para formularios de contacto y Vite para un desarrollo rápido. El proyecto demuestra mis habilidades como desarrollador frontend, creando experiencias interactivas y responsivas.",
     tags: [
       {
         name: "react",
@@ -211,8 +211,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: project1,
+    source_code_link: "https://github.com/Slr95/new-portfolio-2025",
   },
   {
     name: "Job IT",

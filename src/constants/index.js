@@ -21,6 +21,7 @@ import {
   shopify,
   project1,
   project2,
+  project3,
   jobit,
   tripguide,
   threejs,
@@ -38,6 +39,11 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contacto",
+  },
+  {
+    id: "linkedin",
+    title: "Linkedin",
+    link: "https://www.linkedin.com/in/renzo-soler-847654196/",
   },
 ];
 
@@ -253,7 +259,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: project3,
     source_code_link: "https://github.com/Slr95/Portfolio2",
   },
 ];

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
@@ -75,6 +75,8 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const [active, setActive] = useState("");
+
   return (
     <>
       <motion.div variants={textVariant()} className="text-center">
@@ -100,6 +102,20 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+      </div>
+
+      <div className="w-full flex justify-center mt-10">
+        <button
+          className={`${
+            active === "Mas Proyectos" ? "text-white" : "text-secondary"
+          } hover:text-white text-[18px] bg-tertiary font-medium py-3 px-6 rounded-lg transition-all`}
+          onClick={() => {
+            setActive("Mas Proyectos");
+            window.open("https://github.com/Slr95?tab=repositories", "_blank");
+          }}
+        >
+          Más Proyectos
+        </button>
       </div>
     </>
   );

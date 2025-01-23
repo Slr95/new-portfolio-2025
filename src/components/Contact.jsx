@@ -89,6 +89,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Cual es tu nombre?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -100,6 +101,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Cuál es tu email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
@@ -111,6 +113,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Que quieres decirme?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
 
